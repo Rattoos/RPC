@@ -25,25 +25,25 @@ function playerplay() {
 function playround(playerpick, enemypick) {
 //win or lose?
 if (enemypick === playerpick) {
-    return "Gross a tie, Like kissin your sister.";
+    return "Gross a tie, Like kissin your sister!";
 } 
 else if ((enemypick === 'rock' && playerpick === 'paper') 
     || (enemypick === 'paper' && playerpick === 'scissors') 
     || (enemypick === 'scissors' && playerpick === 'rock')) {
         score++;
-        return "Pure skill, Nice win";
+        return "Pure skill, Nice win!";
 }
 else if ((enemypick ==='rock' && playerpick === 'scissors') 
     || (enemypick ==='paper' && playerpick === 'rock') 
     || (enemypick === 'scissors' && playerpick ==='paper')) {
         enemyscore++;
-        return "Choke artist, Get good loser";
+        return "Choke artist, Get good loser!";
 }
 else {
     return "I have no idea what the fuck I'm doing if you see this I'm an idiot";
 }
 }    
-// Game - run playround 5 times
+// Game - run playround best of 5
 function game() {
     while (round < 5) {
         let enemypick = enemyplay();
@@ -62,13 +62,13 @@ function game() {
         console.log("player: " + score);
         console.log("Enemy: " + enemyscore);
             if(score > enemyscore){
-                return "You Won, now get a life";
+                return "You Won, now get a life!";
             }
             else if (score < enemyscore){
-                return "You a sorry excuse for a loser, literal trashcan bot";
+                return "You a sorry excuse for a loser, literal trashcan bot!";
             }
             else {
-                return "Might as well have stayed home and kissed your sister, DRAWGAME";
+                return "Might as well have stayed home and kissed your sister, DRAWGAME!";
             }
             
     }
