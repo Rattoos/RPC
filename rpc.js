@@ -14,7 +14,7 @@ function enemyplay(){
             case 2:
                 return"scissors"
         }
-
+}
 //player choice
 function playerplay() {
     let playerchoice = prompt("Choose Rock, Paper, Or Scissors").toLowerCase();
@@ -44,7 +44,7 @@ else {
 }
 }    
 // Game - run playround 5 times
-function game(); {
+function game() {
     while (round < 5) {
         let enemypick = enemyplay();
         let playerpick = playerplay();
@@ -74,5 +74,5 @@ function game(); {
     }
 }
  
-        //Start the game using this       
-        console.log(game());
+//Start the game using this       
+console.log(game());
