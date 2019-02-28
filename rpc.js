@@ -74,5 +74,5 @@ function game() {
     }
 }
  
-//Start the game using this       
-//console.log(game());
+///Start the game using this       
+///console.log(game());
