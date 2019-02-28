@@ -75,4 +75,4 @@ function game() {
 }
  
 //Start the game using this       
-console.log(game());
+//console.log(game());
