@@ -65,7 +65,7 @@ function game() {
                 return "You Won, now get a life!";
             }
             else if (score < enemyscore){
-                return "You a sorry excuse for a loser, literal trashcan bot!";
+                return "You are a sorry excuse for a loser, literal trashcan bot!";
             }
             else {
                 return "Might as well have stayed home and kissed your sister, DRAWGAME!";
